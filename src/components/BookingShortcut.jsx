@@ -56,7 +56,7 @@ export default function BookingShortcut() {
 
             {/* Main Content Area */}
             <div className="space-y-3 max-w-2xl">
-              <h2 className="text-xl sm:text-2xl lg:text-3xl font-extrabold tracking-tight text-slate-800">
+              <h2 className="text-xl sm:text-2xl lg:text-3xl font-semibold tracking-tight text-slate-800">
                 Survei Kos Idaman Kamu Sekarang!
               </h2>
               <p className="text-xs sm:text-sm lg:text-base text-slate-600 leading-relaxed font-normal">
@@ -83,7 +83,7 @@ export default function BookingShortcut() {
             <div className="flex flex-row items-center justify-between gap-4">
               {/* Text Area */}
               <div className="space-y-1.5 max-w-2xl">
-                <h3 className="text-base sm:text-lg lg:text-xl font-bold tracking-tight text-slate-900 leading-snug">
+                <h3 className="text-base sm:text-lg lg:text-xl font-semibold tracking-tight text-slate-900 leading-snug">
                   Kos Dikelola Mamikos, Terjamin Nyaman
                 </h3>
                 <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal">

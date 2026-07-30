@@ -35,7 +35,7 @@ export default function PromoNgebutSection() {
         {/* DESKTOP HEADER LAYOUT (Gambar 1 Laptop) */}
         <div className="hidden md:flex items-center justify-between gap-4">
           <div className="flex flex-wrap items-center gap-3">
-            <h2 className="text-2xl font-extrabold text-slate-900">
+            <h2 className="text-2xl font-semibold text-slate-900">
               Promo Ngebut
             </h2>
 
@@ -124,7 +124,7 @@ export default function PromoNgebutSection() {
         <div className="md:hidden space-y-3">
           {/* Row 1: Title & 'Pelajari' Link */}
           <div className="flex items-center justify-between">
-            <h2 className="text-xl font-extrabold text-slate-900">
+            <h2 className="text-xl font-semibold text-slate-900">
               Promo Ngebut
             </h2>
             <a

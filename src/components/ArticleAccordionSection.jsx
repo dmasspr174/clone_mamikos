@@ -69,7 +69,7 @@ export default function ArticleAccordionSection() {
       <div className="max-w-[1180px] mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
         {/* Main Article Header & Description */}
         <div className="space-y-3 max-w-5xl mx-auto text-slate-800">
-          <h2 className="text-lg sm:text-xl lg:text-2xl font-extrabold text-center tracking-tight text-slate-900">
+          <h2 className="text-lg sm:text-xl lg:text-2xl font-semibold text-center tracking-tight text-slate-900">
             Mamikos - Aplikasi Anak Kos No. 1 di Indonesia
           </h2>
           <p className="text-xs sm:text-sm text-slate-600 leading-relaxed text-left sm:text-justify lg:text-center font-normal">

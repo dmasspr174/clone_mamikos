@@ -120,7 +120,7 @@ export default function PromoCarousel() {
           {/* Center Action Text */}
           <a
             href="#"
-            className="font-bold text-sm sm:text-base text-slate-900 hover:underline py-2 px-4"
+            className="font-semibold text-sm sm:text-base text-slate-900 hover:underline py-2 px-4"
           >
             Lihat semua promo
           </a>

@@ -51,7 +51,7 @@ export default function PopularAreasSection() {
     <section className="w-full bg-white py-6 lg:py-8 select-none">
       <div className="max-w-[1180px] mx-auto px-4 sm:px-6 lg:px-8 space-y-5">
         {/* Section Title */}
-        <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900">
+        <h2 className="text-xl sm:text-2xl font-semibold text-slate-900">
           Area Kos Terpopuler
         </h2>
 

@@ -46,7 +46,7 @@ export default function RekomendasiJakartaSection() {
         {/* ========================================================================= */}
         <div className="hidden md:flex items-center justify-between gap-4">
           <div className="flex items-center gap-2 flex-wrap">
-            <h2 className="text-2xl font-extrabold text-slate-900">
+            <h2 className="text-2xl font-semibold text-slate-900">
               Rekomendasi kos di
             </h2>
 
