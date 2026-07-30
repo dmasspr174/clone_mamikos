@@ -40,8 +40,7 @@ import {
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 
 import mamikosLogo from "@/asset/mamikos-logo.png";
-import singgahSiniLogo from "@/asset/singgah-logo.png";
-import apikLogo from "@/asset/apik.PNG";
+import singgahSiniLogo from "@/asset/singgah-logo.PNG";
 
 export default function Header() {
   // Mobile Fullscreen Overlays State
