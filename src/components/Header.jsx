@@ -91,12 +91,19 @@ export default function Header() {
           <a href="#" className="flex items-center shrink-0">
             <img
               src={mamikosLogo}
-              alt="kos"
+              alt="Mamikos Logo"
+              width={28}
+              height={28}
               className="h-7 w-auto object-contain"
             />
             {!showSearchInHeader && (
-              <p className="ml-2 font-bold text-lg text-[#00BA88]">mamikos</p>
+              <p className="hidden md:block ml-2 font-bold text-lg text-[#008761]">
+                mamikos
+              </p>
             )}
+            <p className="ml-2 lg:hidden font-bold text-lg text-[#008761]">
+              mamikos
+            </p>
           </a>
 
           {/* Sticky Header Search Bar (Laptop view when scrolled past hero section) */}
@@ -111,7 +118,7 @@ export default function Header() {
                     className="pl-9 h-8 border-none shadow-none focus-visible:ring-0 focus-visible:ring-offset-0 text-xs text-slate-800 placeholder:text-slate-400 bg-transparent"
                   />
                 </div>
-                <Button className="h-8 px-4 bg-[#00BA88] hover:bg-[#009c72] text-white font-bold text-xs rounded-xl transition-colors shrink-0">
+                <Button className="h-8 px-4 bg-[#008761] hover:bg-[#006e4e] text-white font-bold text-xs rounded-xl transition-colors shrink-0">
                   Cari
                 </Button>
               </div>
@@ -284,6 +291,7 @@ export default function Header() {
                   <AvatarImage
                     src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80"
                     alt="Dimas Prasetyo"
+                    referrerPolicy="no-referrer"
                   />
                   <AvatarFallback className="bg-emerald-600 text-white font-bold">
                     DP
@@ -311,6 +319,7 @@ export default function Header() {
         <div className="flex lg:hidden items-center gap-4">
           <button
             onClick={() => setIsMobileNotifOpen(true)}
+            aria-label="Notifikasi"
             className="p-1 text-slate-700 hover:text-emerald-600 transition-colors outline-none"
           >
             <Bell className="w-6 h-6 stroke-[1.75]" />
@@ -318,6 +327,7 @@ export default function Header() {
 
           <button
             onClick={() => setIsMobileMenuOpen(true)}
+            aria-label="Buka Menu"
             className="relative p-1 text-slate-700 hover:text-emerald-600 transition-colors outline-none"
           >
             <Menu className="w-7 h-7 stroke-[1.75]" />
@@ -332,6 +342,7 @@ export default function Header() {
           <div className="flex justify-end mb-6">
             <button
               onClick={() => setIsMobileMenuOpen(false)}
+              aria-label="Tutup Menu"
               className="w-10 h-10 rounded-2xl bg-slate-100/90 flex items-center justify-center text-slate-700 hover:bg-slate-200 transition-colors outline-none"
             >
               <X className="w-5 h-5" />
@@ -343,6 +354,7 @@ export default function Header() {
               <AvatarImage
                 src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80"
                 alt="Dimas Prasetyo"
+                referrerPolicy="no-referrer"
               />
               <AvatarFallback className="bg-emerald-600 text-white font-bold">
                 DP

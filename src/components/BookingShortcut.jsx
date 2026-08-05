@@ -97,11 +97,19 @@ export default function BookingShortcut() {
                 <img
                   src={singgahSiniLogo}
                   alt="Singgahsini"
+                  width={89}
+                  height={36}
+                  loading="lazy"
+                  decoding="async"
                   className="h-7 sm:h-8 lg:h-9 w-auto object-contain"
                 />
                 <img
                   src={apikLogo}
                   alt="Apik"
+                  width={54}
+                  height={32}
+                  loading="lazy"
+                  decoding="async"
                   className="h-6 sm:h-7 lg:h-8 w-auto object-contain"
                 />
               </div>

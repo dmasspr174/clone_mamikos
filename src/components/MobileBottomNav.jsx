@@ -52,17 +52,18 @@ export default function MobileBottomNav() {
           {/* Tab 1: Cari */}
           <button
             onClick={handleCariClick}
+            aria-label="Cari Kos"
             className={`flex flex-col items-center gap-1 text-xs font-semibold transition-colors ${
               activeTab === "cari"
-                ? "text-[#00BA88]"
-                : "text-slate-400 hover:text-slate-600"
+                ? "text-[#008761]"
+                : "text-slate-500 hover:text-slate-700"
             }`}
           >
             <Search
               className={`w-5 h-5 ${
                 activeTab === "cari"
-                  ? "text-[#00BA88] stroke-[2.5]"
-                  : "text-slate-400"
+                  ? "text-[#008761] stroke-[2.5]"
+                  : "text-slate-500"
               }`}
             />
             <span>Cari</span>
@@ -71,15 +72,14 @@ export default function MobileBottomNav() {
           {/* Tab 2: Favorit */}
           <button
             onClick={() => setActiveTab("favorit")}
+            aria-label="Kos Favorit"
             className={`flex flex-col items-center gap-1 text-xs font-semibold transition-colors ${
-              activeTab === "favorit"
-                ? "text-[#00BA88]"
-                : "text-slate-400 hover:text-slate-600"
+              activeTab === "favorit" ? "text-[#008761]" : "text-slate-500"
             }`}
           >
             <Heart
               className={`w-5 h-5 ${
-                activeTab === "favorit" ? "text-[#00BA88]" : "text-slate-400"
+                activeTab === "favorit" ? "text-[#008761]" : "text-slate-500"
               }`}
             />
             <span>Favorit</span>
@@ -88,15 +88,16 @@ export default function MobileBottomNav() {
           {/* Tab 3: Chat */}
           <button
             onClick={handleChatClick}
+            aria-label="Buka Chat"
             className={`flex flex-col items-center gap-1 text-xs font-semibold transition-colors ${
               activeTab === "chat"
-                ? "text-[#00BA88]"
-                : "text-slate-400 hover:text-slate-600"
+                ? "text-[#008761]"
+                : "text-slate-500 hover:text-slate-700"
             }`}
           >
             <MessageSquare
               className={`w-5 h-5 ${
-                activeTab === "chat" ? "text-[#00BA88]" : "text-slate-400"
+                activeTab === "chat" ? "text-[#008761]" : "text-slate-500"
               }`}
             />
             <span>Chat</span>
@@ -126,7 +127,7 @@ export default function MobileBottomNav() {
             <div className="w-48 h-48 rounded-full bg-slate-100/70 flex flex-col items-center justify-center relative mb-6">
               <div className="space-y-2.5 w-36">
                 <div className="bg-white p-2.5 rounded-2xl shadow-sm border border-slate-100 flex items-center gap-2">
-                  <div className="w-6 h-6 rounded-full bg-[#00BA88] flex items-center justify-center text-white text-[10px]">
+                  <div className="w-6 h-6 rounded-full bg-[#008761] flex items-center justify-center text-white text-[10px]">
                     💬
                   </div>
                   <div className="space-y-1">
@@ -135,7 +136,7 @@ export default function MobileBottomNav() {
                   </div>
                 </div>
                 <div className="bg-white p-2.5 rounded-2xl shadow-sm border border-slate-100 flex items-center gap-2 ml-4">
-                  <div className="w-6 h-6 rounded-full bg-[#00BA88] flex items-center justify-center text-white text-[10px]">
+                  <div className="w-6 h-6 rounded-full bg-[#008761] flex items-center justify-center text-white text-[10px]">
                     💬
                   </div>
                   <div className="space-y-1">

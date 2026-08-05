@@ -23,6 +23,11 @@ export default function KosCard({ item }) {
         <img
           src={item.image}
           alt={item.title}
+          width={400}
+          height={300}
+          loading="lazy"
+          decoding="async"
+          referrerPolicy="no-referrer"
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
         />
 
@@ -33,13 +38,25 @@ export default function KosCard({ item }) {
               <img
                 src={singgahSiniLogo}
                 alt="Singgahsini"
-                className="h-3.5 w-auto"
+                width={34}
+                height={14}
+                loading="lazy"
+                decoding="async"
+                className="h-3.5 w-auto object-contain"
               />
             </div>
           )}
           {item.badgeType === "apik" && (
             <div className="bg-white/95 backdrop-blur px-2 py-1 rounded-md shadow-sm border border-slate-100">
-              <img src={apikLogo} alt="Apik" className="h-3.5 w-auto" />
+              <img 
+                src={apikLogo} 
+                alt="Apik" 
+                width={24}
+                height={14}
+                loading="lazy"
+                decoding="async"
+                className="h-3.5 w-auto object-contain" 
+              />
             </div>
           )}
           {item.badgeType === "andalan" && (
@@ -93,7 +110,7 @@ export default function KosCard({ item }) {
             )}
 
             {item.roomLeft && (
-              <span className="text-red-500 italic font-medium">
+              <span className="text-red-600 italic font-semibold">
                 {item.roomLeft}
               </span>
             )}
@@ -101,9 +118,9 @@ export default function KosCard({ item }) {
 
           {/* Title & Area */}
           <div>
-            <h4 className="font-bold text-sm text-slate-900 line-clamp-1 group-hover:text-emerald-600 transition-colors">
+            <h3 className="font-bold text-sm text-slate-900 line-clamp-1 group-hover:text-emerald-600 transition-colors">
               {item.title}
-            </h4>
+            </h3>
             <p className="text-xs font-semibold text-slate-700 line-clamp-1">
               {item.area}
             </p>
@@ -120,18 +137,18 @@ export default function KosCard({ item }) {
           {/* Discount / Promo Tag if available */}
           {item.discountAmount && (
             <div className="flex items-center gap-1.5 text-xs">
-              <span className="font-bold text-red-500 flex items-center gap-0.5">
-                <Zap className="w-3.5 h-3.5 fill-red-500 text-red-500" />
+              <span className="font-bold text-red-600 flex items-center gap-0.5">
+                <Zap className="w-3.5 h-3.5 fill-red-600 text-red-600" />
                 Diskon {Math.round(item.discountAmount / 1000)}rb
               </span>
-              <span className="text-slate-400 line-through text-[11px]">
+              <span className="text-slate-500 line-through text-[11px]">
                 {formatRupiah(item.originalPrice)}
               </span>
             </div>
           )}
 
           {item.promoBadge && (
-            <div className="flex items-center gap-1 text-xs text-emerald-600 font-bold">
+            <div className="flex items-center gap-1 text-xs text-emerald-700 font-bold">
               <Gift className="w-3.5 h-3.5" />
               <span>{item.promoBadge}</span>
             </div>

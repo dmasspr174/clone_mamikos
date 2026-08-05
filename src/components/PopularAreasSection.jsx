@@ -7,43 +7,43 @@ export default function PopularAreasSection() {
       id: 1,
       name: "Kos Yogyakarta",
       image:
-        "https://images.unsplash.com/photo-1584810359583-96fc3448beaa?w=600&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1584810359583-96fc3448beaa?w=360&auto=format&fit=crop&q=75",
     },
     {
       id: 2,
       name: "Kos Jakarta",
       image:
-        "https://images.unsplash.com/photo-1555899434-94d1368aa7af?w=600&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1555899434-94d1368aa7af?w=360&auto=format&fit=crop&q=75",
     },
     {
       id: 3,
       name: "Kos Bandung",
       image:
-        "https://images.unsplash.com/photo-1605283176568-9b41fde3672e?w=600&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1605283176568-9b41fde3672e?w=360&auto=format&fit=crop&q=75",
     },
     {
       id: 4,
       name: "Kos Surabaya",
       image:
-        "https://images.unsplash.com/photo-1596402184320-417e7178b2cd?w=600&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1596402184320-417e7178b2cd?w=360&auto=format&fit=crop&q=75",
     },
     {
       id: 5,
       name: "Kos Malang",
       image:
-        "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=600&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=360&auto=format&fit=crop&q=75",
     },
     {
       id: 6,
       name: "Kos Semarang",
       image:
-        "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=600&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=360&auto=format&fit=crop&q=75",
     },
     {
       id: 7,
       name: "Kos Medan",
       image:
-        "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=600&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=360&auto=format&fit=crop&q=75",
     },
   ];
 
@@ -67,6 +67,11 @@ export default function PopularAreasSection() {
               <img
                 src={city.image}
                 alt={city.name}
+                width={400}
+                height={300}
+                loading="lazy"
+                decoding="async"
+                referrerPolicy="no-referrer"
                 className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
               />
 

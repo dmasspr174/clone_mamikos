@@ -21,7 +21,7 @@ export const promoNgebutData = [
       color: "purple",
     },
     image:
-      "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?w=360&auto=format&fit=crop&q=75",
   },
   {
     id: "p2",
@@ -43,7 +43,7 @@ export const promoNgebutData = [
       color: "pink",
     },
     image:
-      "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=360&auto=format&fit=crop&q=75",
   },
   {
     id: "p3",
@@ -65,7 +65,7 @@ export const promoNgebutData = [
       color: "pink",
     },
     image:
-      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=360&auto=format&fit=crop&q=75",
   },
   {
     id: "p4",
@@ -83,7 +83,7 @@ export const promoNgebutData = [
     badgeType: "singgahsini",
     bannerTag: null,
     image:
-      "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?w=360&auto=format&fit=crop&q=75",
   },
   {
     id: "p5",
@@ -105,7 +105,7 @@ export const promoNgebutData = [
       color: "purple",
     },
     image:
-      "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?w=360&auto=format&fit=crop&q=75",
   },
   {
     id: "p6",
@@ -127,7 +127,7 @@ export const promoNgebutData = [
       color: "pink",
     },
     image:
-      "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=360&auto=format&fit=crop&q=75",
   },
 ];
 
@@ -145,7 +145,7 @@ export const rekomendasiJakartaData = [
     priceUnit: "bulan",
     badgeType: "andalan",
     image:
-      "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?w=360&auto=format&fit=crop&q=75",
   },
   {
     id: "j2",
@@ -160,7 +160,7 @@ export const rekomendasiJakartaData = [
     priceUnit: "bulan",
     badgeType: "andalan",
     image:
-      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=360&auto=format&fit=crop&q=75",
   },
   {
     id: "j3",
@@ -181,7 +181,7 @@ export const rekomendasiJakartaData = [
     priceUnit: "bulan",
     badgeType: "andalan",
     image:
-      "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=360&auto=format&fit=crop&q=75",
   },
   {
     id: "j4",
@@ -196,7 +196,7 @@ export const rekomendasiJakartaData = [
     priceUnit: "bulan",
     badgeType: "andalan",
     image:
-      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=360&auto=format&fit=crop&q=75",
   },
   {
     id: "j5",
@@ -211,7 +211,7 @@ export const rekomendasiJakartaData = [
     priceUnit: "bulan",
     badgeType: "andalan",
     image:
-      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=360&auto=format&fit=crop&q=75",
   },
   {
     id: "j6",
@@ -226,7 +226,7 @@ export const rekomendasiJakartaData = [
     priceUnit: "bulan",
     badgeType: "andalan",
     image:
-      "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=360&auto=format&fit=crop&q=75",
   },
 ];
 
@@ -245,7 +245,7 @@ export const kosPromoData = [
     priceUnit: "bulan",
     badgeType: "andalan",
     image:
-      "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=360&auto=format&fit=crop&q=75",
   },
   {
     id: "pr2",
@@ -261,7 +261,7 @@ export const kosPromoData = [
     priceUnit: "bulan",
     badgeType: "andalan",
     image:
-      "https://images.unsplash.com/photo-1617806118233-18e1de247200?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1617806118233-18e1de247200?w=360&auto=format&fit=crop&q=75",
   },
   {
     id: "pr3",
@@ -277,7 +277,7 @@ export const kosPromoData = [
     priceUnit: "bulan",
     badgeType: "andalan",
     image:
-      "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=360&auto=format&fit=crop&q=75",
   },
   {
     id: "pr4",
@@ -293,7 +293,7 @@ export const kosPromoData = [
     priceUnit: "bulan",
     badgeType: "andalan",
     image:
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=360&auto=format&fit=crop&q=75",
   },
   {
     id: "pr5",
@@ -309,7 +309,7 @@ export const kosPromoData = [
     priceUnit: "bulan",
     badgeType: "andalan",
     image:
-      "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?w=360&auto=format&fit=crop&q=75",
   },
   {
     id: "pr6",
@@ -325,6 +325,6 @@ export const kosPromoData = [
     priceUnit: "bulan",
     badgeType: "andalan",
     image:
-      "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?w=360&auto=format&fit=crop&q=75",
   },
 ];

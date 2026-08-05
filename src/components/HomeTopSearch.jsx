@@ -13,6 +13,10 @@ export default function HomeTopSearch() {
           <img
             src={buildingImg}
             alt="Building Background"
+            width={400}
+            height={250}
+            loading="lazy"
+            decoding="async"
             className="w-full max-w-md object-contain"
           />
         </div>
@@ -39,7 +43,7 @@ export default function HomeTopSearch() {
                     className="pl-11 h-11 border-none shadow-none focus-visible:ring-0 focus-visible:ring-offset-0 text-xs sm:text-sm text-slate-800 placeholder:text-slate-400 bg-transparent"
                   />
                 </div>
-                <Button className="h-11 px-7 bg-[#00BA88] hover:bg-[#009c72] text-white font-bold text-sm rounded-xl transition-colors shrink-0">
+                <Button className="h-11 px-7 bg-[#008761] hover:bg-[#006e4e] text-white font-bold text-sm rounded-xl transition-colors shrink-0">
                   Cari
                 </Button>
               </div>
@@ -51,6 +55,11 @@ export default function HomeTopSearch() {
             <img
               src={buildingImg}
               alt="Building Illustration"
+              width={500}
+              height={300}
+              loading="eager"
+              fetchpriority="high"
+              decoding="async"
               className="w-full max-w-lg object-contain"
             />
           </div>

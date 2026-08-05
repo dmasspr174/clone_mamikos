@@ -19,7 +19,7 @@ export default function RekomendasiJakartaSection() {
   const [api, setApi] = useState(null);
   const [selectedCity, setSelectedCity] = useState("Jakarta");
 
-  // Tripled items for continuous infinite loop scrolling on desktop carousel
+  // Doubled items for continuous infinite loop scrolling on desktop carousel
   const carouselItems = [
     ...rekomendasiJakartaData.map((item, idx) => ({
       ...item,
@@ -28,10 +28,6 @@ export default function RekomendasiJakartaSection() {
     ...rekomendasiJakartaData.map((item, idx) => ({
       ...item,
       uniqueId: `b-${idx}`,
-    })),
-    ...rekomendasiJakartaData.map((item, idx) => ({
-      ...item,
-      uniqueId: `c-${idx}`,
     })),
   ];
 
@@ -53,9 +49,9 @@ export default function RekomendasiJakartaSection() {
             {/* City Dropdown Selector Inline */}
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
-                <button className="flex items-center gap-1.5 text-2xl font-bold text-[#00BA88] hover:text-[#009c72] transition-colors outline-none border-b-2 border-[#00BA88] pb-0.5">
+                <button className="flex items-center gap-1.5 text-2xl font-bold text-[#008761] hover:text-[#006e4e] transition-colors outline-none border-b-2 border-[#008761] pb-0.5">
                   <span>{selectedCity}</span>
-                  <ChevronDown className="w-5 h-5 text-[#00BA88]" />
+                  <ChevronDown className="w-5 h-5 text-[#008761]" />
                 </button>
               </DropdownMenuTrigger>
               <DropdownMenuContent align="start" className="w-48 p-2">
@@ -92,6 +88,7 @@ export default function RekomendasiJakartaSection() {
                 variant="outline"
                 size="icon"
                 onClick={scrollPrev}
+                aria-label="Slide sebelumnya"
                 className="h-8 w-8 rounded-full border-slate-300 shadow-sm hover:bg-slate-100"
               >
                 <ChevronLeft className="h-4 w-4 text-slate-700" />
@@ -100,6 +97,7 @@ export default function RekomendasiJakartaSection() {
                 variant="outline"
                 size="icon"
                 onClick={scrollNext}
+                aria-label="Slide berikutnya"
                 className="h-8 w-8 rounded-full border-slate-300 shadow-sm hover:bg-slate-100"
               >
                 <ChevronRight className="h-4 w-4 text-slate-700" />

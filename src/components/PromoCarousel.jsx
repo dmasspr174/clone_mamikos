@@ -24,12 +24,10 @@ export default function PromoCarousel() {
     { id: 5, img: promo5, alt: "Promo 5" },
   ];
 
-  // Quadrupled buffer to ensure 100% infinite continuous loop without any rewind jump
+  // Doubled buffer is sufficient for continuous infinite loop without excess DOM nodes
   const promoImages = [
     ...basePromoImages.map((item, idx) => ({ ...item, uniqueKey: `a-${idx}` })),
     ...basePromoImages.map((item, idx) => ({ ...item, uniqueKey: `b-${idx}` })),
-    ...basePromoImages.map((item, idx) => ({ ...item, uniqueKey: `c-${idx}` })),
-    ...basePromoImages.map((item, idx) => ({ ...item, uniqueKey: `d-${idx}` })),
   ];
 
   const [api, setApi] = useState(null);
@@ -94,7 +92,11 @@ export default function PromoCarousel() {
                   >
                     <img
                       src={promo.img}
-                      alt={promo.alt}
+                      alt={`Banner Promo Mamikos ${promo.id}`}
+                      width={650}
+                      height={240}
+                      loading={index === 0 ? "eager" : "lazy"}
+                      decoding="async"
                       className="w-full h-44 sm:h-56 md:h-58 lg:h-60 object-cover rounded-2xl pointer-events-none"
                     />
                   </div>
@@ -111,6 +113,7 @@ export default function PromoCarousel() {
             variant="outline"
             size="icon"
             onClick={scrollPrev}
+            aria-label="Promo sebelumnya"
             className="hidden md:flex h-10 w-10 rounded-full bg-white shadow-md border-slate-200 hover:bg-slate-100 transition-colors"
           >
             <ChevronLeft className="h-5 w-5 text-slate-800" />
@@ -130,6 +133,7 @@ export default function PromoCarousel() {
             variant="outline"
             size="icon"
             onClick={scrollNext}
+            aria-label="Promo berikutnya"
             className="hidden md:flex h-10 w-10 rounded-full bg-white shadow-md border-slate-200 hover:bg-slate-100 transition-colors"
           >
             <ChevronRight className="h-5 w-5 text-slate-800" />

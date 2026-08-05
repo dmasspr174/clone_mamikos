@@ -158,6 +158,7 @@ const CarouselPrevious = React.forwardRef(
         ref={ref}
         variant={variant}
         size={size}
+        aria-label="Previous slide"
         className={cn(
           "h-10 w-10 rounded-full bg-white shadow-md border-slate-200 hover:bg-slate-50 transition-colors",
           className
@@ -183,6 +184,7 @@ const CarouselNext = React.forwardRef(
         ref={ref}
         variant={variant}
         size={size}
+        aria-label="Next slide"
         className={cn(
           "h-10 w-10 rounded-full bg-white shadow-md border-slate-200 hover:bg-slate-50 transition-colors",
           className

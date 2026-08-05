@@ -77,15 +77,19 @@ export default function CampusSection() {
                   <img
                     src={campus.logo}
                     alt={campus.code}
+                    width={40}
+                    height={40}
+                    loading="lazy"
+                    decoding="async"
                     className="w-full h-full object-contain"
                   />
                 </div>
 
                 {/* Campus Code & City Name */}
                 <div className="space-y-0.5">
-                  <h4 className="font-semibold text-slate-900 text-sm sm:text-base group-hover:text-emerald-600 transition-colors">
+                  <h3 className="font-semibold text-slate-900 text-sm sm:text-base group-hover:text-emerald-600 transition-colors">
                     {campus.code}
-                  </h4>
+                  </h3>
                   <p className="text-xs sm:text-sm text-slate-500 font-medium">
                     {campus.city}
                   </p>
