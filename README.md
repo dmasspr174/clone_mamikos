@@ -2,6 +2,7 @@
 
 > **Frontend Engineer Technical Test Submission**  
 > Candidate: **Dimas Prasetyo**  
+> Vercel: [https://clone-mamikos.vercel.app/](https://clone-mamikos.vercel.app/)
 > Repository: [https://github.com/dmasspr174/clone_mamikos.git](https://github.com/dmasspr174/clone_mamikos.git)
 
 ---
@@ -14,60 +15,78 @@ This project is a pixel-perfect, highly responsive frontend clone of the **Mamik
 
 ## 🛠️ Technology Stack & Architecture
 
-| Category | Technology / Library | Purpose |
-| :--- | :--- | :--- |
-| **Core Framework** | **React (Vite)** | High-performance component-driven single-page application |
-| **Styling** | **Tailwind CSS** | Custom design tokens, responsive breakpoints & micro-interactions |
-| **UI Components** | **shadcn/ui** | Radix UI primitives for accessible Accordion, Sheet, Popover, Dialog, Dropdown Menu |
-| **Icons** | **Lucide React** | Lightweight, clean vector icon set |
-| **Carousel Engine** | **Embla Carousel & Custom Infinite Loop** | Smooth 60fps infinite scrolling sliders |
-| **AI Assistant** | **Antigravity AI (Google DeepMind)** | Iterative prompt engineering, code generation, and rapid debugging |
+| Category            | Technology / Library                      | Purpose                                                                             |
+| :------------------ | :---------------------------------------- | :---------------------------------------------------------------------------------- |
+| **Core Framework**  | **React (Vite)**                          | High-performance component-driven single-page application                           |
+| **Styling**         | **Tailwind CSS**                          | Custom design tokens, responsive breakpoints & micro-interactions                   |
+| **UI Components**   | **shadcn/ui**                             | Radix UI primitives for accessible Accordion, Sheet, Popover, Dialog, Dropdown Menu |
+| **Icons**           | **Lucide React**                          | Lightweight, clean vector icon set                                                  |
+| **Carousel Engine** | **Embla Carousel & Custom Infinite Loop** | Smooth 60fps infinite scrolling sliders                                             |
+| **AI Assistant**    | **Antigravity AI (Google DeepMind)**      | Iterative prompt engineering, code generation, and rapid debugging                  |
+
+---
+
+## 🚀 Performance website
+
+![score_lighthouse](image-2.png)
 
 ---
 
 ## 🚀 Key Features & Component Breakdown
 
 ### 1. **Header & Navigation Bar (`Header.jsx`)**
+
 - **Top Info Bar**: App download and rental shortcuts (Desktop).
-- **Interactive Nav Menus**: Dropdowns for *Cari Apa?*, *Lainnya*, and *Profile Avatar* (with unread notification badge).
-- **Sheet & Popover Drawers**: Right-side drawer for *Chat* and popover modal for *Notifikasi*.
+- **Interactive Nav Menus**: Dropdowns for _Cari Apa?_, _Lainnya_, and _Profile Avatar_ (with unread notification badge).
+- **Sheet & Popover Drawers**: Right-side drawer for _Chat_ and popover modal for _Notifikasi_.
 - **Sticky Header Search Bar**: Automatically activates when scrolling past the hero search section, hiding the brand text and displaying an inline search bar pill.
 
 ### 2. **Hero Search Section (`HomeTopSearch.jsx`)**
-- Full-width hero banner with interactive tabs (*Kos*, *Singgahsini & Apik*, *Kos Andalan*, *Apartemen*).
-- Responsive search input with location placeholder and green *Cari* CTA button.
+
+- Full-width hero banner with interactive tabs (_Kos_, _Singgahsini & Apik_, _Kos Andalan_, _Apartemen_).
+- Responsive search input with location placeholder and green _Cari_ CTA button.
 
 ### 3. **Promo Banner Carousel (`PromoCarousel.jsx`)**
+
 - Full-width hero promo banner slider featuring a 4x infinite loop buffer algorithm, auto-play timer, center-focused scaling, and touch/drag controls.
 
 ### 4. **Booking Shortcut Section (`BookingShortcut.jsx`)**
+
 - Dedicated shortcut section displaying brand badges for **Singgahsini** and **Apik** with custom asset logos.
 
 ### 5. **Section 1: Promo Ngebut (`PromoNgebutSection.jsx`)**
-- Features a real-time countdown timer (*Akan Berakhir dalam waktu...*), inline city selector dropdown, desktop infinite carousel, and mobile 2x2 grid fallback.
+
+- Features a real-time countdown timer (_Akan Berakhir dalam waktu..._), inline city selector dropdown, desktop infinite carousel, and mobile 2x2 grid fallback.
 
 ### 6. **Section 2: Rekomendasi Kos (`RekomendasiJakartaSection.jsx`)**
+
 - Curated property recommendations with city dropdown selector, desktop carousel, and mobile 2x2 grid layout.
 
 ### 7. **Section 3: Promo Kos (`KosPromoSection.jsx`)**
+
 - Discounted property cards featuring rare kost badges, discount pills, and room availability tags.
 
 ### 8. **Section 4: Area Kos Terpopuler (`PopularAreasSection.jsx`)**
-- 8-card responsive grid layout (4x2 on desktop, 2x4 on mobile) with dark gradient overlays, Unsplash city photography, and a dedicated *Lihat semua →* card.
+
+- 8-card responsive grid layout (4x2 on desktop, 2x4 on mobile) with dark gradient overlays, Unsplash city photography, and a dedicated _Lihat semua →_ card.
 
 ### 9. **Section 5: Kos Sekitar Kampus (`CampusSection.jsx`)**
-- 8-card responsive grid featuring emblem logos for top Indonesian universities (**UGM**, **UNDIP**, **UI**, **UNPAD**, **STAN**, **UB**, **UNAIR**) and a *Lihat semua →* CTA card.
+
+- 8-card responsive grid featuring emblem logos for top Indonesian universities (**UGM**, **UNDIP**, **UI**, **UNPAD**, **STAN**, **UB**, **UNAIR**) and a _Lihat semua →_ CTA card.
 
 ### 10. **Section 6: Artikel & Accordion (`ArticleAccordionSection.jsx`)**
-- Built with **shadcn/ui** `@radix-ui/react-accordion` to present key Mamikos features (*Fitur Pencarian*, *Filter Pencarian*, *Chat*, *Sewa Langsung*, *Virtual Tour*, *MamiPoin*, *Kos Review*, etc.).
+
+- Built with **shadcn/ui** `@radix-ui/react-accordion` to present key Mamikos features (_Fitur Pencarian_, _Filter Pencarian_, _Chat_, _Sewa Langsung_, _Virtual Tour_, _MamiPoin_, _Kos Review_, etc.).
 
 ### 11. **Footer (`Footer.jsx`)**
+
 - Multi-column footer layout matching desktop and mobile specifications, complete with Google Play/App Store badges, SGS ISO 27001 certification badge, and copyright notice.
 
 ### 12. **Mobile Navigation & Chat Overlay (`MobileBottomNav.jsx`)**
+
 - **Directional Scroll Auto-Hide**: Hides when scrolling down, slides up when scrolling up.
 - **Cari Button**: Smoothly scrolls window to top (`HomeTopSearch`).
-- **Chat Button**: Opens a fullscreen mobile chat overlay with an empty state illustration (*Tidak ada percakapan saat ini.*).
+- **Chat Button**: Opens a fullscreen mobile chat overlay with an empty state illustration (_Tidak ada percakapan saat ini._).
 
 ---
 
@@ -91,6 +110,7 @@ This project is a pixel-perfect, highly responsive frontend clone of the **Mamik
 ## 💡 AI Challenges & Human Code Adjustments
 
 ### **Observation on AI Behavior**
+
 While AI tools accelerate scaffolding and initial component creation, AI output can occasionally **diverge from the given visual prompt or misinterpret exact styling details**. Rather than accepting raw AI output blindly, active human engineering judgment and code analysis were applied to refine and align the implementation perfectly with the provided design assets.
 
 ### **Key Human Code Adjustments Made:**
@@ -101,7 +121,7 @@ While AI tools accelerate scaffolding and initial component creation, AI output 
 
 2. **Campus Section Layout Redesign (`CampusSection.jsx`)**:
    - AI initially created a standard image carousel for campus items.
-   - **Human Adjustment**: Re-architected the component into a structured **8-Card Grid Layout** (4 columns x 2 rows on Desktop | 2 columns x 4 rows on Mobile) featuring circular emblem logos (**UGM**, **UNDIP**, **UI**, **UNPAD**, **STAN**, **UB**, **UNAIR**) and an integrated *Lihat semua →* action card.
+   - **Human Adjustment**: Re-architected the component into a structured **8-Card Grid Layout** (4 columns x 2 rows on Desktop | 2 columns x 4 rows on Mobile) featuring circular emblem logos (**UGM**, **UNDIP**, **UI**, **UNPAD**, **STAN**, **UB**, **UNAIR**) and an integrated _Lihat semua →_ action card.
 
 3. **Popular Areas Grid Alignment (`PopularAreasSection.jsx`)**:
    - Replaced carousel wrapper with an 8-card grid featuring centered city name text overlaid on dark image gradients to match the mobile and desktop mockup specifications.
