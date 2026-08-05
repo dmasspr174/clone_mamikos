@@ -28,7 +28,8 @@ This project is a pixel-perfect, highly responsive frontend clone of the **Mamik
 
 ## 🚀 Performance website
 
-![score_lighthouse](image-2.png)
+<img width="1278" height="679" alt="image" src="https://github.com/user-attachments/assets/8923960e-444a-46f8-8c8f-3fda92458c57" />
+
 
 ---
 
