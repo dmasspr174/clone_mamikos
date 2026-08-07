@@ -1,16 +1,14 @@
 # Mamikos Clone Landing Page — AI-Assisted Frontend Build
 
-> **Frontend Engineer Technical Test Submission**  
-> Candidate: **Dimas Prasetyo**  
 > Vercel: [https://clone-mamikos.vercel.app/](https://clone-mamikos.vercel.app/)
-> Repository: [https://github.com/dmasspr174/clone_mamikos.git](https://github.com/dmasspr174/clone_mamikos.git)
 > PageSpeed Test: [https://pagespeed.web.dev/analysis/https-clone-mamikos-vercel-app/ylq7d24sll?form_factor=desktop](https://pagespeed.web.dev/analysis/https-clone-mamikos-vercel-app/ylq7d24sll?form_factor=desktop)
+
 
 ---
 
 ## 📌 Executive Summary
 
-This project is a pixel-perfect, highly responsive frontend clone of the **Mamikos** home page built as part of the **Frontend Engineer Technical Test (AI-Assisted Build)**. The application demonstrates an efficient end-to-end workflow utilizing advanced AI coding assistance to rapidly turn UI mockups and screenshot references into production-grade React components.
+This project is a pixel-perfect, highly responsive frontend clone of the **Mamikos** home page built as part of the **Frontend Engineer**. The application demonstrates an efficient end-to-end workflow utilizing advanced AI coding assistance to rapidly turn UI mockups and screenshot references into production-grade React components.
 
 ---
 
@@ -169,9 +167,3 @@ npm run build
 The output will be placed in the `dist/` directory ready for deployment.
 
 ---
-
-## 👨‍💻 Candidate Info
-
-- **Candidate**: Dimas Prasetyo
-- **Repository**: [dmasspr174/clone_mamikos](https://github.com/dmasspr174/clone_mamikos.git)
-- **Role**: Frontend Engineer Candidate
