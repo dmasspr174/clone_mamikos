@@ -4,6 +4,7 @@
 > Candidate: **Dimas Prasetyo**  
 > Vercel: [https://clone-mamikos.vercel.app/](https://clone-mamikos.vercel.app/)
 > Repository: [https://github.com/dmasspr174/clone_mamikos.git](https://github.com/dmasspr174/clone_mamikos.git)
+> PageSpeed Test: [https://pagespeed.web.dev/analysis/https-clone-mamikos-vercel-app/ylq7d24sll?form_factor=desktop](https://pagespeed.web.dev/analysis/https-clone-mamikos-vercel-app/ylq7d24sll?form_factor=desktop)
 
 ---
 
@@ -27,8 +28,10 @@ This project is a pixel-perfect, highly responsive frontend clone of the **Mamik
 ---
 
 ## 🚀 Performance website
+<img width="655" height="597" alt="image" src="https://github.com/user-attachments/assets/f0ae8914-6a10-4308-860a-70ae45db0e31" />
 
-<img width="1278" height="679" alt="image" src="https://github.com/user-attachments/assets/8923960e-444a-46f8-8c8f-3fda92458c57" />
+<img width="648" height="599" alt="image" src="https://github.com/user-attachments/assets/def8f04c-2195-4f82-af3f-bd45a5ca826a" />
+
 
 
 ---
